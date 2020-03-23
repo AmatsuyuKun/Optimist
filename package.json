@@ -1,0 +1,44 @@
+{
+  "name": "optimist",
+  "version": "0.1.0",
+  "description": "Optimize options list",
+  "author": "Jōro",
+  "license": "MIT",
+  "homepage": "https://github.com/AmatsuyuKun/Optimist#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmatsuyuKun/Optimist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmatsuyuKun/Optimist/issues"
+  },
+  "keywords": [
+    "arguments",
+    "command-line",
+    "commands",
+    "console",
+    "parameters",
+    "parser",
+    "options"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "comma-dangle": "error",
+      "semi": "error"
+    }
+  }
+}
