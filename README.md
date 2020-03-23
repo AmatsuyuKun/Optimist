@@ -1,10 +1,16 @@
+<div>
+    <a href="https://circleci.com/gh/AmatsuyuKun/Optimist">
+        <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=svg"/>
+    </a>
+</div>
+
 <div align="center">
     <img src="img/optimist.png" alt="Optimist" width="200px"/>
 </div>
 
-<h2 align="center">Optimize options list</h2>
+<h2 align="center">♻️ Optimize options list</h2>
 
-**:recycle: Optimist**: Simply maps common command-line options to an `object`, turning their values to literal types.
+Simply maps common command-line options to an `object`, turning their values to literal types.
 
 ## Table of Contents
 
