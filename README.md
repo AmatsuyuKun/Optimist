@@ -1,6 +1,6 @@
 <div>
     <a href="https://circleci.com/gh/AmatsuyuKun/Optimist">
-        <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=svg"/>
+        <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=svg" alt="CircleCI Status"/>
     </a>
 </div>
 
@@ -74,13 +74,13 @@ Number values like `-1.1` are treated as both an option or a value depending on 
 Referring to the above example, the given defaults are used to determine if the actual command-line arguments contains valid or invalid options as well as provide default values to those options not explicitly specified. Such defaults are defined as the following:
 
 - `option1`: Represents an option with a single default value.
-    - └─ Matches: `--option1 'string'` or `--option1=string`
+    - Matches: `--option1 'string'` or `--option1=string`
 - `option2`: Represents an option with multiple required values.
-    - └─ Matches: `--option2` or `--option2=false`
+    - Matches: `--option2` or `--option2=false`
 - `option3`: Represents an option with a single default value including an alias.
-    - └─ Matches: `--option3 -1.1` or `-opt3=-1.1`
+    - Matches: `--option3 -1.1` or `-opt3=-1.1`
 - `option4`: Represents an option with multiple required values including an alias.
-    - └─ Matches: `--option4 null` or `-opt4=undefined`
+    - Matches: `--option4 null` or `-opt4=undefined`
 
 > **Note:** For multiple values, the actual default value is the first element (index `[0]`), e.g in `[true, false]`, `true` is the default value.
 
