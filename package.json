@@ -1,6 +1,6 @@
 {
   "name": "optimist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Optimize options list",
   "author": "Jōro",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "lib"
   ],
   "scripts": {
+    "lint": "eslint lib test",
     "test": "jest"
   },
   "devDependencies": {
