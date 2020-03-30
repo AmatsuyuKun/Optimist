@@ -1,6 +1,9 @@
 <div>
     <a href="https://circleci.com/gh/AmatsuyuKun/Optimist">
-        <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=svg" alt="CircleCI Status"/>
+        <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=shield" alt="CircleCI Status"/>
+    </a>
+    <a href="https://david-dm.org/AmatsuyuKun/Optimist?type=dev">
+        <img src="https://david-dm.org/AmatsuyuKun/Optimist/dev-status.svg" alt="DevDependencies Status"/>
     </a>
 </div>
 
