@@ -27,6 +27,18 @@ Simply maps common command-line options to an `object`, turning their values to 
 
 ## Usage
 
+Install Optimist using `npm`:
+
+```bash
+npm install --save-dev @joro/optimist
+```
+
+Or `yarn`:
+
+```bash
+yarn add --dev @joro/optimist
+```
+
 Get started by simply requiring optimist module and define an optional default values:
 
 ```javascript
