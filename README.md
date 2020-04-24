@@ -48,7 +48,7 @@ yarn add --dev @joro/optimist
 Get started by simply requiring optimist module and define an optional default values:
 
 ```javascript
-const optimist = require('optimist');
+const optimist = require('@joro/optimist');
 
 const defaults = {
     option1: 'string',
