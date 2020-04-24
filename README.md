@@ -1,17 +1,21 @@
-<div>
+<p>
+    <a href="https://www.npmjs.com/package/@joro/optimist">
+        <img src="https://badge.fury.io/js/%40joro%2Foptimist.svg" alt="NPM version">
+    </a>
     <a href="https://circleci.com/gh/AmatsuyuKun/Optimist">
         <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=shield" alt="CircleCI Status"/>
     </a>
     <a href="https://david-dm.org/AmatsuyuKun/Optimist?type=dev">
         <img src="https://david-dm.org/AmatsuyuKun/Optimist/dev-status.svg" alt="DevDependencies Status"/>
     </a>
-</div>
+</p>
 
-<br>
+<!-- Spacing -->
+<br/>
 
-<div align="center">
+<p align="center">
     <img src="media/optimist.png" alt="Optimist" width="200px"/>
-</div>
+</p>
 
 <h2 align="center">♻️ Optimize options list</h2>
 
