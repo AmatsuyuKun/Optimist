@@ -1,5 +1,5 @@
 {
-  "name": "optimist",
+  "name": "@joro/optimist",
   "version": "0.1.1",
   "description": "Optimize options list",
   "author": "Jōro",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "jest": "^25.2.4"
+    "jest": "^25.4.0"
   },
   "eslintConfig": {
     "parserOptions": {
