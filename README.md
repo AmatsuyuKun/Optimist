@@ -1,6 +1,6 @@
 <p>
     <a href="https://www.npmjs.com/package/@joro/optimist">
-        <img src="https://badge.fury.io/js/%40joro%2Foptimist.svg" alt="NPM version">
+        <img src="https://badgen.net/npm/v/@joro/optimist" alt="NPM version">
     </a>
     <a href="https://circleci.com/gh/AmatsuyuKun/Optimist">
         <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=shield" alt="CircleCI Status"/>
@@ -24,9 +24,9 @@ Simply maps common command-line options to an `object`, turning their values to 
 ## Table of Contents
 
 - [Usage](#usage)
-    - [Options and Values](#options-and-values)
-    - [Defaults and Aliases](#defaults-and-aliases)
-    - [Returned Value](#returned-value)
+  - [Options and Values](#options-and-values)
+  - [Defaults and Aliases](#defaults-and-aliases)
+  - [Returned Value](#returned-value)
 - [References](#references)
 - [Contributing](#contributing)
 - [License](#license)
@@ -51,16 +51,16 @@ Get started by simply requiring optimist module and define an optional default v
 const optimist = require('@joro/optimist');
 
 const defaults = {
-    option1: 'string',
-    option2: [true, false],
-    option3: {
-        defaults: -1.1,
-        aliases: 'opt3'
-    },
-    option4: {
-        defaults: [null, undefined],
-        aliases: ['opt4']
-    }
+  option1: 'string',
+  option2: [true, false],
+  option3: {
+    defaults: -1.1,
+    aliases: 'opt3'
+  },
+  option4: {
+    defaults: [null, undefined],
+    aliases: ['opt4']
+  }
 };
 
 console.log(optimist(process.argv.slice(2), defaults));
@@ -76,11 +76,11 @@ It will output an optimized representation of the given options:
 
 ```javascript
 {
-    _: [],
-    option1: 'string',
-    option2: true,
-    option3: -1.1,
-    option4: undefined
+  _: [],
+  option1: 'string',
+  option2: true,
+  option3: -1.1,
+  option4: undefined
 }
 ```
 
@@ -95,13 +95,13 @@ Number values like `-1.1` are treated as both an option or a value depending on 
 Referring to the above example, the given defaults are used to determine if the actual command-line arguments contains valid or invalid options as well as provide default values to those options not explicitly specified. Such defaults are defined as the following:
 
 - `option1`: Represents an option with a single default value.
-    - Matches: `--option1 'string'` or `--option1=string`
+  - Matches: `--option1 'string'` or `--option1=string`
 - `option2`: Represents an option with multiple required values.
-    - Matches: `--option2` or `--option2=false`
+  - Matches: `--option2` or `--option2=false`
 - `option3`: Represents an option with a single default value including an alias.
-    - Matches: `--option3 -1.1` or `-opt3=-1.1`
+  - Matches: `--option3 -1.1` or `-opt3=-1.1`
 - `option4`: Represents an option with multiple required values including an alias.
-    - Matches: `--option4 null` or `-opt4=undefined`
+  - Matches: `--option4 null` or `-opt4=undefined`
 
 > **Note:** For multiple values, the actual default value is the first element (index `[0]`), e.g in `[true, false]`, `true` is the default value.
 
