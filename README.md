@@ -1,6 +1,6 @@
 <p>
     <a href="https://www.npmjs.com/package/@joro/optimist">
-        <img src="https://badgen.net/npm/v/@joro/optimist" alt="NPM version">
+        <img src="https://badgen.net/npm/v/@joro/optimist?color=green" alt="NPM version">
     </a>
     <a href="https://circleci.com/gh/AmatsuyuKun/Optimist">
         <img src="https://circleci.com/gh/AmatsuyuKun/Optimist.svg?style=shield" alt="CircleCI Status"/>
