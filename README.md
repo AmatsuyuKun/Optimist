@@ -7,8 +7,10 @@
     </a>
 </div>
 
+<br>
+
 <div align="center">
-    <img src="img/optimist.png" alt="Optimist" width="200px"/>
+    <img src="media/optimist.png" alt="Optimist" width="200px"/>
 </div>
 
 <h2 align="center">♻️ Optimize options list</h2>
